@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: linear-gradient(to left ,#BCFFB9,#28FFBF);
+    max-height: 100vh;
+}
+.card {
+    background: transparent;
+    border: 0;
+    margin-right: 20px;
+    
+  }
+  .card p{
+      font-size: 25px;
+  }
+  
+  .card:hover {
+      transform: scale(1.1);
+      transition: transform 0.1s ease-in-out;
+    }
+  
+  img{
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  
